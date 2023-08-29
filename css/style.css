@@ -642,6 +642,10 @@ img {
   color: var(--white-color);
 }
 
+.footer-social {
+  margin-right: 80px;
+}
+
 .footer-social-list {
   display: flex;
   gap: 16px;
