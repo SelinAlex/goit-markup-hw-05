@@ -744,6 +744,7 @@ img {
 }
 .footer-btn-icon {
   fill: currentColor;
+  margin-left: 16px;
 }
 .footer-form-btn:hover,
 .footer-form-btn:focus {
