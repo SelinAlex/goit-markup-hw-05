@@ -698,6 +698,11 @@ img {
 .footer-form-label {
 }
 .footer-form-input {
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  color: var(--white-color);
   width: 264px;
   height: 40px;
   background-color: transparent;
