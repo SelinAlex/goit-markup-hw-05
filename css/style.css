@@ -707,6 +707,7 @@ img {
   outline: transparent;
 }
 .footer-form-btn {
+  height: 40px;
   display: inline-flex;
   min-width: 165px;
   gap: 16px;
