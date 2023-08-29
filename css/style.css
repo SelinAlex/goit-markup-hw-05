@@ -691,49 +691,61 @@ img {
   font-weight: 500;
   margin-bottom: 16px;
 }
+
+.footer-form-label {
+}
+
 .footer-form {
   display: flex;
   gap: 24px;
 }
-.footer-form-label {
-}
 .footer-form-input {
-  font-size: 12px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  padding-left: 16px;
-  color: var(--white-color);
   width: 264px;
   height: 40px;
+  padding-left: 16px;
   background-color: transparent;
   border-radius: 4px;
   border: 1px solid var(--white-color);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   outline: transparent;
-}
 
-placeholder {
+  color: var(--white-color);
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-form-input::placeholder {
   color: var(--white-color);
 }
-
+.footer-form-input:hover,
+.footer-form-input:focus {
+  border: 1px solid var(--logo-color);
+}
 .footer-form-btn {
-  height: 40px;
   display: inline-flex;
   min-width: 165px;
   gap: 16px;
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
-  border: none;
   border-radius: 4px;
   background: var(--logo-color);
+  border: none;
   cursor: pointer;
 
   color: var(--white-color);
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-btn-icon {
   fill: currentColor;
+}
+.footer-form-btn:hover,
+.footer-form-btn:focus {
+  background-color: var(--action-color);
 }
