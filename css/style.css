@@ -711,6 +711,11 @@ img {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   outline: transparent;
 }
+
+placeholder {
+  color: var(--white-color);
+}
+
 .footer-form-btn {
   height: 40px;
   display: inline-flex;
