@@ -421,6 +421,15 @@ img {
 .modal-form-link {
   color: var(--logo-color);
 }
+
+.modal-form-agreement-input:checked
+  + .modal-form-agreement
+  > .modal-agreement-checkbox {
+  background-color: var(--action-color);
+  border: none;
+  fill: var(--logo-second-color);
+}
+
 .modal-send-btn {
   display: block;
   margin: 0 auto;
